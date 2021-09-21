@@ -39,7 +39,7 @@ body {
 
 
 
-/*General*/
+/*GENERAL*/
 
 body{
     width: 100%;
@@ -115,9 +115,6 @@ header {
   width: 100%;
   height: 100%;
 
-
-
-  
  
   .main-header {
      width: 100%;
@@ -156,7 +153,7 @@ header {
       }
 
 
-      /* DESCRIPTIO SECTIO*/
+      /* DESCRIPTION SECTION*/
     
       .bg-img {
           background-color: #131313;
@@ -184,8 +181,6 @@ header {
        }
                
             h2 {
-                // margin: 20px 0 0 85px;
-              
                 font-size: 38px;
                 color: #f5f6f7;
                 font-family: 'Roboto', sans-serif;
@@ -225,10 +220,9 @@ header {
 
 /*ABOUT SECTION */
 
-  .about-wuka {
+  .about-teresa {
       display: flex;
       flex-direction: column;
-    //   background: #1f1f1f;
     background-color: #1C1B29;
 
       
@@ -249,7 +243,7 @@ p {
   }
 
 
-  /*PORTFOLI SECTION */
+  /*PORTFOLIO SECTION */
 
   
 .portfolio {
@@ -341,14 +335,16 @@ p {
             font-weight: 900;
             color: #f5f6f7;
 
-            span {
+            .attribute-link {
+                
                 color: #FDFF5E;
             }
         }
       
     }
 
-  /*----------- MEDIA QUERIES-----*/
+  /*----==================------- MEDIA QUERIES--====--============-*/
+  /*=====================================================================*/
 
 
 
@@ -375,7 +371,7 @@ p {
     }
 
 
-    /*General*/
+    /*GENERAL*/
     
     body{
         width: 100%;
@@ -564,7 +560,7 @@ p {
     
     /*ABOUT SECTION */
     
-      .about-wuka {
+      .about-teresa {
           display: flex;
           flex-direction: column;
         //   background: #1f1f1f;
@@ -884,7 +880,7 @@ p {
     
     /*ABOUT SECTION */
     
-      .about-wuka {
+      .about-teresa {
           display: flex;
           flex-direction: column;
         background-color: #1C1B29;
@@ -1211,7 +1207,7 @@ p {
     
     /*ABOUT SECTION */
     
-      .about-wuka {
+      .about-teresa {
           display: flex;
           flex-direction: column;
         background-color: #1C1B29;
@@ -1533,7 +1529,7 @@ header {
 
 /*ABOUT SECTION */
 
-  .about-wuka {
+  .about-teresa {
       display: flex;
       flex-direction: column;
     background-color: #1C1B29;
@@ -1837,7 +1833,7 @@ header {
 
 /*ABOUT SECTION */
 
-  .about-wuka {
+  .about-teresa {
       display: flex;
       flex-direction: column;
     background-color: #1C1B29;
@@ -2105,7 +2101,7 @@ header {
                 
                 font-family: 'Archivo Black', sans-serif;
                 color: #FDFF5E;
-                font-size: 18px;
+                font-size: 20px;
                 margin: 0;
             }
 
@@ -2113,7 +2109,7 @@ header {
             h1{
            
                 font-family: 'Archivo Black', sans-serif;
-                 font-size: 18px;
+                 font-size: 20px;
                  color: #FDFF5E;
 
             }
@@ -2160,7 +2156,7 @@ header {
 
 /*ABOUT SECTION */
 
-  .about-wuka {
+  .about-teresa {
       display: flex;
       flex-direction: column;
     background-color: #1C1B29;
@@ -2208,7 +2204,7 @@ p {
 
     h2 {
         font-family: 'Archivo Black', sans-serif;
-        font-size: 30px;
+        font-size: 25px;
         color: rgb(254, 254, 255);
         font-weight: 900;
         margin-top: 50px;
@@ -2478,7 +2474,7 @@ header {
 
 /*ABOUT SECTION */
 
-  .about-wuka {
+  .about-teresa {
       display: flex;
       flex-direction: column;
     background-color: #1C1B29;

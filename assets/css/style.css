@@ -32,7 +32,7 @@ body {
           box-sizing: border-box;
 }
 
-/*General*/
+/*GENERAL*/
 body {
   width: 100%;
   height: 100%;
@@ -81,7 +81,7 @@ header .main-header {
   background-image: url(/assets/img/back-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  /* DESCRIPTIO SECTIO*/
+  /* DESCRIPTION SECTION*/
 }
 
 header .main-header nav {
@@ -166,7 +166,7 @@ header .main-header .bg-img .hero-img img {
 }
 
 /*ABOUT SECTION */
-.about-wuka {
+.about-teresa {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -177,7 +177,7 @@ header .main-header .bg-img .hero-img img {
   background-color: #1C1B29;
 }
 
-.about-wuka h2 {
+.about-teresa h2 {
   font-family: 'Archivo Black', sans-serif;
   font-size: 50px;
   color: #fefeff;
@@ -187,11 +187,11 @@ header .main-header .bg-img .hero-img img {
   text-align: center;
 }
 
-.about-wuka h2 span {
+.about-teresa h2 span {
   color: #FDFF5E;
 }
 
-.about-wuka p {
+.about-teresa p {
   color: #f5f6f7;
   margin: 0 200px 40px 200px;
   line-height: 1.6;
@@ -202,7 +202,7 @@ header .main-header .bg-img .hero-img img {
   border-radius: 5px;
 }
 
-/*PORTFOLI SECTION */
+/*PORTFOLIO SECTION */
 .portfolio {
   margin: 50px;
   text-align: center;
@@ -302,11 +302,12 @@ footer P {
   color: #f5f6f7;
 }
 
-footer P span {
+footer P .attribute-link {
   color: #FDFF5E;
 }
 
-/*----------- MEDIA QUERIES-----*/
+/*----==================------- MEDIA QUERIES--====--============-*/
+/*=====================================================================*/
 @media screen and (min-width: 768px) and (max-width: 1300px) {
   body {
     width: 100%;
@@ -325,7 +326,7 @@ footer P span {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
   }
-  /*General*/
+  /*GENERAL*/
   body {
     width: 100%;
     height: 100%;
@@ -447,7 +448,7 @@ footer P span {
     height: 250px;
   }
   /*ABOUT SECTION */
-  .about-wuka {
+  .about-teresa {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -457,7 +458,7 @@ footer P span {
             flex-direction: column;
     background-color: #1C1B29;
   }
-  .about-wuka h2 {
+  .about-teresa h2 {
     font-family: 'Archivo Black', sans-serif;
     font-size: 50px;
     color: #fefeff;
@@ -466,13 +467,13 @@ footer P span {
     margin-bottom: 50px;
     text-align: center;
   }
-  .about-wuka h2 span {
+  .about-teresa h2 span {
     color: #FDFF5E;
   }
-  .about-wuka h2 {
+  .about-teresa h2 {
     font-size: 30px;
   }
-  .about-wuka p {
+  .about-teresa p {
     color: #f5f6f7;
     margin: 0 100px 40px 100px;
     line-height: 1.6;
@@ -664,7 +665,7 @@ footer P span {
     height: 200px;
   }
   /*ABOUT SECTION */
-  .about-wuka {
+  .about-teresa {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -674,7 +675,7 @@ footer P span {
             flex-direction: column;
     background-color: #1C1B29;
   }
-  .about-wuka h2 {
+  .about-teresa h2 {
     font-family: 'Archivo Black', sans-serif;
     font-size: 25px;
     color: #fefeff;
@@ -682,10 +683,10 @@ footer P span {
     margin-top: 50px;
     text-align: center;
   }
-  .about-wuka h2 span {
+  .about-teresa h2 span {
     color: #FDFF5E;
   }
-  .about-wuka p {
+  .about-teresa p {
     color: #f5f6f7;
     margin: 16px;
     line-height: 1.6;
@@ -842,7 +843,7 @@ footer P span {
     height: 200px;
   }
   /*ABOUT SECTION */
-  .about-wuka {
+  .about-teresa {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -852,7 +853,7 @@ footer P span {
             flex-direction: column;
     background-color: #1C1B29;
   }
-  .about-wuka h2 {
+  .about-teresa h2 {
     font-family: 'Archivo Black', sans-serif;
     font-size: 25px;
     color: #fefeff;
@@ -860,10 +861,10 @@ footer P span {
     margin-top: 50px;
     text-align: center;
   }
-  .about-wuka h2 span {
+  .about-teresa h2 span {
     color: #FDFF5E;
   }
-  .about-wuka p {
+  .about-teresa p {
     color: #f5f6f7;
     margin: 16px;
     line-height: 1.6;
@@ -1020,7 +1021,7 @@ footer P span {
     height: 300px;
   }
   /*ABOUT SECTION */
-  .about-wuka {
+  .about-teresa {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1030,7 +1031,7 @@ footer P span {
             flex-direction: column;
     background-color: #1C1B29;
   }
-  .about-wuka h2 {
+  .about-teresa h2 {
     font-family: 'Archivo Black', sans-serif;
     font-size: 25px;
     color: #fefeff;
@@ -1038,10 +1039,10 @@ footer P span {
     margin-top: 50px;
     text-align: center;
   }
-  .about-wuka h2 span {
+  .about-teresa h2 span {
     color: #FDFF5E;
   }
-  .about-wuka p {
+  .about-teresa p {
     color: #f5f6f7;
     margin: 16px;
     line-height: 1.6;
@@ -1216,7 +1217,7 @@ footer P span {
     height: 300px;
   }
   /*ABOUT SECTION */
-  .about-wuka {
+  .about-teresa {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1226,7 +1227,7 @@ footer P span {
             flex-direction: column;
     background-color: #1C1B29;
   }
-  .about-wuka h2 {
+  .about-teresa h2 {
     font-family: 'Archivo Black', sans-serif;
     font-size: 30px;
     color: #fefeff;
@@ -1234,10 +1235,10 @@ footer P span {
     margin-top: 50px;
     text-align: center;
   }
-  .about-wuka h2 span {
+  .about-teresa h2 span {
     color: #FDFF5E;
   }
-  .about-wuka p {
+  .about-teresa p {
     color: #f5f6f7;
     margin: 20px;
     line-height: 1.6;
@@ -1370,12 +1371,12 @@ footer P span {
   header .main-header .bg-img .description p {
     font-family: 'Archivo Black', sans-serif;
     color: #FDFF5E;
-    font-size: 18px;
+    font-size: 20px;
     margin: 0;
   }
   header .main-header .bg-img .description h1 {
     font-family: 'Archivo Black', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: #FDFF5E;
   }
   header .main-header .bg-img .description h2 {
@@ -1394,7 +1395,7 @@ footer P span {
     height: 300px;
   }
   /*ABOUT SECTION */
-  .about-wuka {
+  .about-teresa {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1404,7 +1405,7 @@ footer P span {
             flex-direction: column;
     background-color: #1C1B29;
   }
-  .about-wuka h2 {
+  .about-teresa h2 {
     font-family: 'Archivo Black', sans-serif;
     font-size: 25px;
     color: #fefeff;
@@ -1412,10 +1413,10 @@ footer P span {
     margin-top: 50px;
     text-align: center;
   }
-  .about-wuka h2 span {
+  .about-teresa h2 span {
     color: #FDFF5E;
   }
-  .about-wuka p {
+  .about-teresa p {
     color: #f5f6f7;
     margin: 16px;
     line-height: 1.6;
@@ -1432,7 +1433,7 @@ footer P span {
   }
   .portfolio h2 {
     font-family: 'Archivo Black', sans-serif;
-    font-size: 30px;
+    font-size: 25px;
     color: #fefeff;
     font-weight: 900;
     margin-top: 50px;
@@ -1578,7 +1579,7 @@ footer P span {
     height: 200px;
   }
   /*ABOUT SECTION */
-  .about-wuka {
+  .about-teresa {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1588,7 +1589,7 @@ footer P span {
             flex-direction: column;
     background-color: #1C1B29;
   }
-  .about-wuka h2 {
+  .about-teresa h2 {
     font-family: 'Archivo Black', sans-serif;
     font-size: 25px;
     color: #fefeff;
@@ -1596,10 +1597,10 @@ footer P span {
     margin-top: 50px;
     text-align: center;
   }
-  .about-wuka h2 span {
+  .about-teresa h2 span {
     color: #FDFF5E;
   }
-  .about-wuka p {
+  .about-teresa p {
     color: #f5f6f7;
     margin: 16px;
     line-height: 1.6;

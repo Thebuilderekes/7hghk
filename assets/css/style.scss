@@ -124,13 +124,17 @@ header {
 
 
      nav {
-          background-color: #131313;
+        background-color: #131313;
           width: 100%;
-          padding-top: 50px;
-          padding-bottom: 50px ;
+        //   padding-top: 20px;
+          padding-bottom: 20px ;
+          position: fixed;
+          z-index: 10;
 
           .navbar-nav {
-            
+      
+     
+
  
            z-index: 10;
 
@@ -150,14 +154,18 @@ header {
                }
            }
           }
+
+
+         
       }
 
-
+    
       /* DESCRIPTION SECTION*/
     
       .bg-img {
           background-color: #131313;
         padding: 20px 0 50px 0;
+        padding-top:  10%;
         
 
         .description {
@@ -202,8 +210,8 @@ header {
         img{
         border: 10px dotted #FDFF5E;
         border-radius: 50%;
-         width: 400px;
-         height: 400px;
+         width: 350px;
+         height: 350px;
         }
     }
 
@@ -230,7 +238,7 @@ header {
 
 p {
     color: #f5f6f7;
-    margin: 0 200px 40px 200px;
+    margin: 0 150px 40px 150px;
     line-height: 1.6;
     padding: 20px 20px 20px 20px;
     font-weight: bold;
@@ -446,12 +454,8 @@ p {
     header {
       width: 100%;
       height: 100%;
-    
-    
-    
-      
-     
-      .main-header {
+
+       .main-header {
          width: 100%;
           background-image: url(/assets/img/back-img.jpg);
           background-repeat: no-repeat;
@@ -461,8 +465,8 @@ p {
          nav {
               background-color: #131313;
               width: 100%;
-              padding-top: 50px;
-              padding-bottom: 50px ;
+              padding-top: 30px;
+              padding-bottom: 20px ;
     
               .navbar-nav {
                 
@@ -493,35 +497,26 @@ p {
         
           .bg-img {
               background-color: #131313;
-            padding: 20px 0 200px 0;
+            padding: 20px 0 100px 0;
+            padding-top: 20%;
             
     
             .description {
     
-         
-              
-           
-    
                 p{
                   @include font-properties();
                   font-size: 30px;
-                  padding: 0;
-                    
+                  padding: 0;     
                   margin: 0;
                 }
     
                 h1{
                   @include font-properties();
-               
-                  font-size: 30px;
-               
-                  
-           }
+                 font-size: 30px;
+                }
                    
                 h2 {
-                    // margin: 20px 0 0 85px;
-                  
-                    font-size: 20px;
+                     font-size: 20px;
                     color: #f5f6f7;
                     font-family: 'Roboto', sans-serif;
                     font-weight: 900;
@@ -542,8 +537,8 @@ p {
             img{
             border: 10px dotted #FDFF5E;
             border-radius: 50%;
-             width: 250px;
-             height: 250px;
+             width: 300px;
+             height: 300px;
             }
         }
     
@@ -616,8 +611,6 @@ p {
     
     
     
-    
-    
     /*FOOTER SECTION */
     
     
@@ -668,8 +661,6 @@ p {
         }
 
 
-  
-  
   @media screen  and (min-width:601px) and (max-width:767px) {
 
     body{
@@ -779,8 +770,8 @@ p {
          nav {
               background-color: #131313;
               width: 100%;
-              padding-top: 50px;
-              padding-bottom: 50px ;
+              padding-top: 20px;
+              padding-bottom: 20px ;
     
               .navbar-nav {
                 
@@ -813,6 +804,8 @@ p {
               text-align: center;
               background-color: #131313;
             padding: 0 0 50px 0;
+            padding-top: 20%;
+
             
     
             .description {
@@ -1106,8 +1099,8 @@ p {
          nav {
               background-color: #131313;
               width: 100%;
-              padding-top: 50px;
-              padding-bottom: 50px ;
+              padding-top: 20px;
+              padding-bottom: 20px ;
     
               .navbar-nav {
                 
@@ -1140,6 +1133,7 @@ p {
               text-align: center;
               background-color: #131313;
             padding: 0 0 50px 0;
+            padding-top: 25%;
             
     
             .description {
@@ -1430,8 +1424,8 @@ header {
      nav {
           background-color: #131313;
           width: 100%;
-          padding-top: 50px;
-          padding-bottom: 50px ;
+          padding-top: 30px;
+          padding-bottom: 20px ;
 
           .navbar-nav {
             
@@ -1464,6 +1458,7 @@ header {
           text-align: center;
           background-color: #131313;
         padding: 0 0 50px 0;
+        padding-top: 25%;
         
 
         .description {
@@ -1736,8 +1731,8 @@ header {
      nav {
           background-color: #131313;
           width: 100%;
-          padding-top: 50px;
-          padding-bottom: 50px ;
+          padding-top: 30px;
+          padding-bottom: 20px ;
 
           .navbar-nav {
             
@@ -1770,6 +1765,7 @@ header {
           text-align: center;
           background-color: #131313;
         padding: 0 0 50px 0;
+        padding-top: 25%;
         
 
         .description {
@@ -2057,8 +2053,8 @@ header {
      nav {
           background-color: #131313;
           width: 100%;
-          padding-top: 50px;
-          padding-bottom: 50px ;
+          padding-top: 30px;
+          padding-bottom: 20px ;
 
           .navbar-nav {
             
@@ -2091,6 +2087,7 @@ header {
           text-align: center;
           background-color: #131313;
         padding: 0 0 50px 0;
+        padding-top: 25%;
         
 
         .description {
@@ -2373,8 +2370,8 @@ header {
      nav {
           background-color: #131313;
           width: 100%;
-          padding-top: 50px;
-          padding-bottom: 50px ;
+          padding-top: 20px;
+          padding-bottom: 20px ;
 
           .navbar-nav {
             
@@ -2407,6 +2404,7 @@ header {
           text-align: center;
           background-color: #131313;
         padding: 0 0 50px 0;
+        padding-top: 10%;
         
 
         .description {

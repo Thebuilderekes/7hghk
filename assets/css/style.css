@@ -87,8 +87,9 @@ header .main-header {
 header .main-header nav {
   background-color: #131313;
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
+  position: fixed;
+  z-index: 10;
 }
 
 header .main-header nav .navbar-nav {
@@ -109,6 +110,7 @@ header .main-header nav .navbar-nav .nav-item .nav-link {
 header .main-header .bg-img {
   background-color: #131313;
   padding: 20px 0 50px 0;
+  padding-top: 10%;
 }
 
 header .main-header .bg-img .description {
@@ -161,8 +163,8 @@ header .main-header .bg-img .description h2 span {
 header .main-header .bg-img .hero-img img {
   border: 10px dotted #FDFF5E;
   border-radius: 50%;
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
 }
 
 /*ABOUT SECTION */
@@ -193,7 +195,7 @@ header .main-header .bg-img .hero-img img {
 
 .about-teresa p {
   color: #f5f6f7;
-  margin: 0 200px 40px 200px;
+  margin: 0 150px 40px 150px;
   line-height: 1.6;
   padding: 20px 20px 20px 20px;
   font-weight: bold;
@@ -375,8 +377,8 @@ footer P .attribute-link {
   header .main-header nav {
     background-color: #131313;
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
   header .main-header nav .navbar-nav {
     display: -webkit-box;
@@ -399,7 +401,8 @@ footer P .attribute-link {
   }
   header .main-header .bg-img {
     background-color: #131313;
-    padding: 20px 0 200px 0;
+    padding: 20px 0 100px 0;
+    padding-top: 20%;
   }
   header .main-header .bg-img .description p {
     color: #FDFF5E;
@@ -444,8 +447,8 @@ footer P .attribute-link {
   header .main-header .bg-img .hero-img img {
     border: 10px dotted #FDFF5E;
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
   }
   /*ABOUT SECTION */
   .about-teresa {
@@ -608,8 +611,8 @@ footer P .attribute-link {
   header .main-header nav {
     background-color: #131313;
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   header .main-header nav .navbar-nav {
     display: -webkit-box;
@@ -634,6 +637,7 @@ footer P .attribute-link {
     text-align: center;
     background-color: #131313;
     padding: 0 0 50px 0;
+    padding-top: 20%;
   }
   header .main-header .bg-img .description {
     margin-top: 40px;
@@ -786,8 +790,8 @@ footer P .attribute-link {
   header .main-header nav {
     background-color: #131313;
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   header .main-header nav .navbar-nav {
     display: -webkit-box;
@@ -812,6 +816,7 @@ footer P .attribute-link {
     text-align: center;
     background-color: #131313;
     padding: 0 0 50px 0;
+    padding-top: 25%;
   }
   header .main-header .bg-img .description {
     margin-top: 40px;
@@ -964,8 +969,8 @@ footer P .attribute-link {
   header .main-header nav {
     background-color: #131313;
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
   header .main-header nav .navbar-nav {
     display: -webkit-box;
@@ -990,6 +995,7 @@ footer P .attribute-link {
     text-align: center;
     background-color: #131313;
     padding: 0 0 50px 0;
+    padding-top: 25%;
   }
   header .main-header .bg-img .description {
     margin-top: 40px;
@@ -1142,8 +1148,8 @@ footer P .attribute-link {
   header .main-header nav {
     background-color: #131313;
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
   header .main-header nav .navbar-nav {
     display: -webkit-box;
@@ -1168,6 +1174,7 @@ footer P .attribute-link {
     text-align: center;
     background-color: #131313;
     padding: 0 0 50px 0;
+    padding-top: 25%;
   }
   header .main-header .bg-img .description {
     margin-top: 40px;
@@ -1338,8 +1345,8 @@ footer P .attribute-link {
   header .main-header nav {
     background-color: #131313;
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
   }
   header .main-header nav .navbar-nav {
     display: -webkit-box;
@@ -1364,6 +1371,7 @@ footer P .attribute-link {
     text-align: center;
     background-color: #131313;
     padding: 0 0 50px 0;
+    padding-top: 25%;
   }
   header .main-header .bg-img .description {
     margin-top: 40px;
@@ -1525,8 +1533,8 @@ footer P .attribute-link {
   header .main-header nav {
     background-color: #131313;
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
   header .main-header nav .navbar-nav {
     display: -webkit-box;
@@ -1551,6 +1559,7 @@ footer P .attribute-link {
     text-align: center;
     background-color: #131313;
     padding: 0 0 50px 0;
+    padding-top: 10%;
   }
   header .main-header .bg-img .description p {
     font-family: 'Archivo Black', sans-serif;

@@ -93,7 +93,7 @@ header .main-header nav {
 }
 
 header .main-header nav .navbar-nav {
-  padding-top: 20px;
+  padding-top: 10px;
   z-index: 10;
 }
 
@@ -207,7 +207,6 @@ header .main-header .bg-img .hero-img img {
 
 /*PORTFOLIO SECTION */
 .portfolio {
-  margin: 50px;
   text-align: center;
   background-color: #131313;
 }
@@ -266,7 +265,7 @@ footer .follow h2 {
 
 footer .follow ul {
   margin-right: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 footer .follow ul li {
@@ -536,10 +535,10 @@ footer P .attribute-link {
   }
   footer .mail-button {
     text-decoration: none;
-    color: #131313;
+    color: #f5f6f7;
     font-weight: 900;
-    background-color: #f5f6f7;
-    border: none;
+    background-color: transparent;
+    border: 1px solid #f5f6f7;
     border-radius: 5px;
     padding: 10px 30px;
     margin: 10px 0 20px 0px;
@@ -1474,11 +1473,11 @@ footer P .attribute-link {
     padding: 0 10px;
   }
   footer .mail-button {
-    color: #131313;
+    color: #f5f6f7;
     font-size: 20px;
     font-weight: 900;
-    background-color: #f5f6f7;
-    border: none;
+    background-color: tarsnparent;
+    border: 1px solid #f5f6f7;
     border-radius: 5px;
     padding: 10px 10px;
   }

@@ -124,7 +124,7 @@ header {
                 z-index: 10;
 
                 .navbar-nav {
-                padding-top: 20px;
+                padding-top: 10px;
                 z-index: 10;
 
 
@@ -237,7 +237,7 @@ header {
 
   
 .portfolio {
-     margin: 50px;
+   
     text-align: center;
     background-color: #131313;
     @include section-header();
@@ -279,7 +279,7 @@ header {
 
                     ul {
                         margin-right: 30px;
-                        margin-bottom: 30px;
+                        margin-bottom: 50px;
                 
                         li{
                             display: inline;
@@ -607,10 +607,10 @@ header {
         }
           .mail-button{
               text-decoration: none;
-              color: #131313;
+              color: #f5f6f7;;
               font-weight: 900;
-            background-color: #f5f6f7;
-            border: none;
+            background-color: transparent;
+            border: 1px solid #f5f6f7;
             border-radius: 5px;
             padding: 10px 30px;
             margin: 10px 0 20px 0px;
@@ -2245,11 +2245,12 @@ p {
         }
 
        .mail-button {
-            color: #131313;
+            color: #f5f6f7;
             font-size: 20px;
             font-weight: 900;
-          background-color: #f5f6f7;
-          border: none;
+          background-color: tarsnparent ;
+          border: 1px solid #f5f6f7;
+ 
           border-radius: 5px;
           padding: 10px 10px
         }
